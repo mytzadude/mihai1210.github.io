@@ -15,12 +15,12 @@ document.getElementById("id_bussiness_version").innerHTML = "Bussiness version: 
 	 context.clearRect(0, 0, w, h);
 	 
 	 context.beginPath();
-	 context.arc(w / 2 + 100 * Math.cos(unghi.unghi * Math.PI / 180), 
-				h / 2 + 100 * Math.sin(unghi.unghi * Math.PI / 180), 
+	 context.arc(w / 2 + 100 * Math.cos(unghi.valoare * Math.PI / 180), 
+				h / 2 + 100 * Math.sin(unghi.valoare * Math.PI / 180), 
 				50, 0, 2 * Math.PI);
 	 context.stroke();	 
 	 
-	 unghi.unghi++;
+	 unghi.valoare++;
  }
  //---------------------------------------------
  function start()
